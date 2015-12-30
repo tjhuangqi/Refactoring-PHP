@@ -1,0 +1,37 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e68600b7db3d1ee071f7fc3e6a3517a2",
+    "content-hash": "6e98370cc60ae68aa576280e4b16f298",
+    "packages": [
+        {
+            "name": "21cake-sdk/php-sdk-v1",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "http://gitlab.corp.21cake.com/service/sdk.git",
+                "reference": "5e2e54fa54428f8a836b30dec25bd17118511242"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lib\\": "src/Lib/"
+                }
+            },
+            "time": "2015-12-30 02:55:17"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "21cake-sdk/php-sdk-v1": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

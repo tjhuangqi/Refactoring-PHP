@@ -1,0 +1,11 @@
+{
+  "require": {
+    "21cake-sdk/php-sdk-v1": "dev-dev"
+  },
+  "repositories": [
+    {"type": "git", "url": "http://gitlab.corp.21cake.com/service/sdk.git"},
+    {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+    {"packagist": false}
+  ]
+
+}
