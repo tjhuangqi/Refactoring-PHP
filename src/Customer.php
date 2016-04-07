@@ -33,7 +33,7 @@ class Customer
 
         $result = 'Rental Record for ' . $this->getName() . "\n";
 
-        foreach ($this->rentals as $rental) {
+        foreach ($this->getRentals() as $rental) {
 
             $thisAmount = $rental->getAmount();
 
